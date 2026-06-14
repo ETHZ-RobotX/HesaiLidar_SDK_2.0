@@ -93,6 +93,7 @@ typedef struct DecoderParam
   float default_frame_frequency = DEFAULT_MAX_MULTI_FRAME_NUM;
   bool update_function_safety_flag = false;
   uint16_t echo_mode_filter = 0;
+  float min_distance = 0.0;
 } DecoderParam;
 
 ///< The LiDAR input parameter
