@@ -82,6 +82,7 @@ typedef struct DecoderParam
   uint16_t use_timestamp_type = point_cloud_timestamp;
   int fov_start = -1;
   int fov_end = -1;
+  float min_distance = 0.0f;
   bool distance_correction_flag = false;
   bool xt_spot_correction = false;
   bool et_blooming_filter_flag = false;
